@@ -27,18 +27,6 @@
       class="flex justify-between items-center border-t-1 border-[#c0c0c01a] h-35px px-4"
       v-if="!getCollapsed"
     >
-      <a @click="openWindow(SITE_URL)" class="text-gray-400 hover:text-white">{{
-        t('layout.footer.website')
-      }}</a>
-
-      <GithubFilled
-        class="text-14px !text-gray-400 !hover:text-white cursor-pointer"
-        @click="openWindow(GITHUB_URL)"
-      />
-
-      <a @click="openWindow(DOC_URL)" class="text-gray-400 hover:text-white">{{
-        t('layout.footer.onlineDocument')
-      }}</a>
     </div>
   </Sider>
 </template>

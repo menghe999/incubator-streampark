@@ -27,68 +27,21 @@ export default defineComponent({
         <div class="!text-left w-550px m-auto">
           <div class="mb-5 system_info pt-0">
             <div class="project_title fw-bold text-white mb-3">
-              <div
-                class="animated-gradient-text_background animated-gradient-text_background-1"
-                style={{
-                  '--content': '"Apache"',
-                  '--start-color': '#00DFD8',
-                  '--end-color': '#FFF',
-                }}
-              >
-                <span class="animated-gradient-text_foreground animated-gradient-text_foreground-1">
-                  Apache
-                </span>
-              </div>
               <div class="flex  items-start">
                 <div
                   class="animated-gradient-text_background animated-gradient-text_background-2"
                   style={{
-                    '--content': '"StreamPark"',
+                    '--content': '"实时计算"',
                     '--start-color': '#FFF',
                     '--end-color': '#00DFD8',
-                  }}
+                  }}  
                 >
                   <span class="animated-gradient-text_foreground animated-gradient-text_foreground-2">
-                    StreamPark
+                  实时计算
                   </span>
                 </div>
               </div>
             </div>
-            <p class=" text-light-200 leading-40px" style={{ fontSize: '18px' }}>
-              <div>Make stream processing easier!</div>
-              <div>easy-to-use streaming application development framework</div>
-              <div>and operation platform</div>
-            </p>
-          </div>
-          <div class="flex items-center mt-10">
-            <a
-              class="btn streampark-btn btn !flex items-center"
-              href="https://github.com/apache/incubator-streampark"
-              target="_blank"
-            >
-              <Icon icon="ant-design:github-filled"></Icon>
-              <div>&nbsp; GitHub</div>
-            </a>
-            <a
-              class="btn streampark-btn btn-green !flex items-center ml-10px"
-              href="https://streampark.apache.org"
-              target="_blank"
-            >
-              <Icon icon="carbon:document"></Icon>
-              <div>&nbsp;Document</div>
-            </a>
-          </div>
-
-          <div class="mt-20px shields z-3 flex items-center">
-            <Tag color="#477de9">Version: v{version}</Tag>
-            <img
-              src="https://img.shields.io/github/stars/apache/incubator-streampark.svg?sanitize=true"
-              class="wow fadeInUp"
-            ></img>
-            <img
-              src="https://img.shields.io/github/forks/apache/incubator-streampark.svg?sanitize=true"
-              class="wow fadeInUp"
-            ></img>
           </div>
         </div>
       );

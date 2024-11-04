@@ -16,9 +16,6 @@
 -->
 <template>
   <div class="enter-x mb-50px text-light-50">
-    <div class="text-center enter-x">
-      <img class="logo mx-auto my-20px" src="/@/assets/images/logo-text.png" />
-    </div>
   </div>
   <Form
     class="p-4 enter-x signin-form"

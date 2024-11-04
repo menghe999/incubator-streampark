@@ -59,42 +59,6 @@
       </div>
     </div>
     <footer class="w-1150px m-auto text-center bg-transparent opacity-60">
-      <div class="flex items-center justify-center">
-        <a
-          :href="TWITTER_URL"
-          target="_blank"
-          class="text-light-100 mx-3 cursor-pointer hover:text-light-400 dark:text-light-100"
-        >
-          <Icon icon="hugeicons:new-twitter" />
-        </a>
-        <div class="mx-3 text-light-100 cursor-pointer">
-          <Popover placement="top" trigger="hover" arrow-point-at-center>
-            <template #content>
-              <img src="/@/assets/images/join_wechat.png" alt="qrcode" class="h-150px w-150px" />
-            </template>
-            <Icon icon="cib:wechat" />
-          </Popover>
-        </div>
-        <a
-          :href="EMAIL_URL"
-          target="_blank"
-          class="text-light-100 mx-3 cursor-pointer hover:text-light-100 dark:text-light-100"
-        >
-          <Icon icon="ic:round-email" />
-        </a>
-        <a
-          :href="GITHUB_URL"
-          target="_blank"
-          class="text-light-100 mx-3 cursor-pointer hover:text-light-100 dark:text-light-100"
-        >
-          <Icon icon="ant-design:github-filled" />
-        </a>
-      </div>
-      <p class="text-light-100 pt-10px">
-        Copyright © 2022-{{ `${new Date().getFullYear()}` }} The Apache Software Foundation. Apache
-        StreamPark, StreamPark, and its feather logo are trademarks of The Apache Software
-        Foundation.
-      </p>
     </footer>
   </div>
 </template>
